@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 24px;
+}
+.card {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 15px;
+}
+.darkMode {
+  color: #ffffff;
+  background-color: #000000;
+}
+.lightMode {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+.heading {
+  font-family: 'Roboto';
+}
+.btn {
+  margin: 15px;
+  padding: 5px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  border: none;
+}
